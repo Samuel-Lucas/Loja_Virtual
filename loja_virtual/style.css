@@ -7,7 +7,7 @@ body {
 header {
     color: white;
     display: flex;
-    background: #e60000;
+    background: linear-gradient(rgb(173, 13, 173), rgb(39, 39, 187));
     justify-content: space-around;
 }
 
@@ -54,12 +54,14 @@ footer {
 .lista {
     width: 20%;
     height: 25%;
+    margin: 60px;
     border: 1px solid red;
 }
 
 .itens {
     width: 20%;
     height: 25%;
+    margin: 60px;
     border: 1px solid blue;
 }
 
