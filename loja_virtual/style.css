@@ -5,7 +5,7 @@
 
 #boas_vindas img {
     animation-name: opacidade;
-    animation-duration: 5s;
+    animation-duration: 4s;
 }
 
 body {
@@ -50,7 +50,7 @@ i {
     margin-left: 375px;
     border-radius: 20px;
     animation-name: opacidade;
-    animation-delay: 3s;
+    animation-delay: 2s;
     animation-duration: 1s;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
@@ -63,9 +63,26 @@ i {
 }
 
 footer {
-    width: 80%;
-    height: 12%; 
-    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient( rgb(39, 39, 187), rgb(173, 13, 173));
+}
+
+footer p, footer h4 {
+    color: white;
+    margin-left: 10px;
+}
+
+footer ul li {
+    display: inline;
+    list-style: none;
+    margin: 5px;
+    margin-right: 15px;
+}
+
+footer ul {
+    background-color: white;
+    border-radius: 15px;    
 }
 
 /* Página de produtos */
@@ -89,6 +106,8 @@ table {
 
 ol li {
     list-style: disc;
+    margin: 5px;
+    cursor: pointer;
 }
 
 .preco_descontado {
@@ -123,7 +142,6 @@ ol li {
 
 }
 
-
 /* Lojas */
 
 #lojas {
@@ -132,13 +150,4 @@ ol li {
     width: 80%;
     height: 50%;
     margin: auto;
-}
-
-ul li {
-    display: inline;
-    list-style: none;
-    margin: 5px;
-    position: relative;
-    bottom: 50px;
-    left: 130px;
 }
